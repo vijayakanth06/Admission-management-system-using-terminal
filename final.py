@@ -13,7 +13,6 @@ def create_database():
     conn.close()
 
 def generate_email(first_name,domain=".23aim@kongu.edu"):
-
     first_initial = first_name.lower()
     email = f"{first_initial}{domain}"
     return email
